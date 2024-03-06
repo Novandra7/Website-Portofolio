@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Novandra | Website</title>
+    <link rel="stylesheet" href="output.css" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="name-container">
+                <p class="name">
+                    <span style="font-weight: 800;">Novandra</span>
+                    <span style="font-weight: 200; color: rgb(96, 165, 250);">Arissaputra</span>
+                </p>
+            </div>
+            <div class="menu">
+                <a href="#about" class="pilihan">about</a>
+                <a href="#services" class="pilihan">services</a>
+                <a href="#contact" class="pilihan">contact</a>
+                <a href="#skill" class="pilihan">skills</a>
+            </div>
+            <div class="dark-mode">
+                <img src="img/material-symbols--light-mode.svg" alt="light mode" />
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="about-section" id="about"> <!-- about section -->
+            <div class="container-kiri-about">
+                <div style="display: flex; align-items: center;">
+                    <svg class="garis">
+                        <line x1="0" y1="10px" x2="10px" y2="10px" />
+                    </svg>
+                    <p class="my-name-is">My Name Is</p>
+                </div>
+                <p style="font-size: 48px; line-height: 1; ">
+                    Awang Muhammad
+                    <span style="color: rgb(96, 165, 250);">Novandra Arissaputra</span>
+                </p>
+                <p style="font-weight: 200; color: rgb(148, 163, 184); ">
+                    He is someone who likes to study programming and he is
+                    currently studying at Mulawarman University, Faculty of
+                    Engineering, Information Systems study program. With
+                    skills in java, php, python, html, css, js, laravel
+                </p>
+            </div>
+            <div class="foto">
+                <img src="img/Blue Minimalist Instagram Profile Picture (1).png" alt="" />
+            </div>
+        </div>
+        <div class="service-section" id="services"> <!-- services section -->
+            <div style="display: grid;">
+                <div class="judul"> <!--judul -->
+                    <div style="display: flex; align-items: center;">
+                        <svg class="garis">
+                            <line x1="0" y1="10px" x2="10px" y2="10px" />
+                        </svg>
+                        <p class="services">Services</p>
+                    </div>
+                    <p style="font-size: 30px; line-height: 36px;">Specialized In</p>
+                </div>
+                <div class="card-container"> <!-- card layout -->
+                    <div class="card">
+                        <img src="img/Group 1.png" alt="">
+                        <p>Programming</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde totam dolore incidunt eligendi
+                            cumque voluptas exercitationem omnis, inventore ab sed.</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/Group 2.png" alt="">
+                        <p>UI/UX Design</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde totam dolore incidunt eligendi
+                            cumque voluptas exercitationem omnis, inventore ab sed.</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/Group 3.png" alt="">
+                        <p>Teaching</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde totam dolore incidunt eligendi
+                            cumque voluptas exercitationem omnis, inventore ab sed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-contact" id="contact"> <!-- contact section -->
+            <div class="container-dalam-contact">
+                <div style="display: flex; flex-direction: column;">
+                    <div class="container-judul">
+                        <div class="judul-contact"> <!--judul -->
+                            <div style="display: flex; align-items: center;">
+                                <svg class="garis">
+                                    <line x1="0" y1="10px" x2="10px" y2="10px" />
+                                </svg>
+                                <p class="contact">contact</p>
+                            </div>
+                            <p style="font-size: 30px; line-height: 36px;">Contact Me</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: row;">
+                        <div class="container-contact-information">
+                            <!-- container informasi kontak -->
+                            <p class="judul-contact-information">Contact Information</p>
+                            <p class="deskripsi-contact-information">If you need help, you can contact the
+                                number or
+                                email listed below</p>
+                            <div class="container-informasi">
+                                <div class="informasi" style="margin-top: 24px;">
+                                    <img src="img/ic--baseline-phone.svg" alt="phone">
+                                    <p>0851-6323-5033</p>
+                                </div>
+                                <div class="informasi">
+                                    <img src="img/material-symbols-light--mail.svg" alt="mail">
+                                    <p>awangarissaputra@gmail.com</p>
+                                </div>
+                                <div class="informasi">
+                                    <img src="img/ion--location-sharp.svg" alt="location">
+                                    <p>Jalan Raudah.2 Samarinda No.66</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="flex-basis: 66.666667%;">
+                            <form action="#">
+                                <div class="form-container">
+                                    <div class="formel-container">
+                                        <label for="name" class="label">Name</label>
+                                        <input class="text-input" type="text" />
+                                    </div>
+                                    <div class="formel-container">
+                                        <label for="name" class="label">Email</label>
+                                        <input class="text-input" type="text" />
+                                    </div>
+                                    <div class="column-span formel-container">
+                                        <label for="name" class="label">Subject</label>
+                                        <input class="text-input" type="text" />
+                                    </div>
+                                    <div class="column-span formel-container">
+                                        <label for="name" class="label">Message</label>
+                                        <input class="text-input" type="text" />
+                                    </div>
+                                    <div class="column-span" style="margin: 12px; margin-top: 28px; width: 100%;">
+                                        <button class="submit-button " type="submit">Send Email</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skills-section" style="padding-top: 160px; padding-bottom: 160px" id="skill">
+            <!-- skills section -->
+            <div class="judul"> <!--judul -->
+                <div style="display: flex; align-items: center;">
+                    <svg class="garis">
+                        <line x1="0" y1="10px" x2="10px" y2="10px" />
+                    </svg>
+                    <p class="services">Services</p>
+                </div>
+                <p style="font-size: 30px; line-height: 36px;">Specialized In</p>
+            </div>
+            <div class="container-skill">
+                <div style="flex-basis: 50%;">
+                    <div class="subcontainer-skill">
+                        <div>
+                            <div class="skill-box">
+                                <span class="title">HTML</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per html">
+                                        <span class="tooltip">90%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="skill-box">
+                                <span class="title">CSS</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per css">
+                                        <span class="tooltip">30%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="skill-box">
+                                <span class="title">JavaScript</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per javascript">
+                                        <span class="tooltip">40%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="skill-box">
+                                <span class="title">Java</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per java">
+                                        <span class="tooltip">60%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="flex-basis: 50%;">
+                    <div class="subcontainer-skill">
+                        <div>
+                            <div class="skill-box">
+                                <span class="title">PHP</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per php">
+                                        <span class="tooltip">80%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="skill-box">
+                                <span class="title">Laravel</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per laravel">
+                                        <span class="tooltip">65%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="skill-box">
+                                <span class="title">Mysql</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per mysql">
+                                        <span class="tooltip">75%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="skill-box">
+                                <span class="title">Python</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per python">
+                                        <span class="tooltip">80%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="gambar">
+            <a href="https://github.com/Novandra7" target="_blank"><img src="img/mdi--github.svg" alt="github"></a>
+            <a href="https://www.linkedin.com/in/novandra-arissaputra-70a72727a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"><img src="img/mdi--linkedin.svg" alt="linkedin"></a>
+            <a href="https://www.instagram.com/novandrarsptra/?utm_source=qr&r=nametag" target="_blank"><img
+                    src="img/akar-icons--instagram-fill.svg" alt="instagram"></a>
+            <a href=" https://wa.me/6285163235033" target="_blank"><img src="img/ic--baseline-whatsapp.svg"
+                    alt="whatsapp"></a>
+        </div>
+        <div class="copyright">
+            2024 Novandra Arissaputra. All rights reserved
+        </div>
+    </footer>
+</body>
+
+</html>
