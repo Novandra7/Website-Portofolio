@@ -101,6 +101,10 @@ p {
   justify-content: space-evenly;
   gap: 40px;
 }
+.narasi{
+  text-align: justify;
+  line-height: 23px;
+}
 .card {
   display: flex;
   flex-direction: column;
